@@ -2037,6 +2037,8 @@
 
 .margin-80px {
   margin-top: 80px;
+  -webkit-filter: blur(9px);
+  filter: blur(9px);
 }
 
 .project-max-w {
@@ -2669,6 +2671,19 @@
   height: 21px;
 }
 
+.tb-revealed {
+  position: absolute;
+  left: 242px;
+  top: 566px;
+  z-index: 50;
+  -webkit-transform: rotate(-31deg);
+  -ms-transform: rotate(-31deg);
+  transform: rotate(-31deg);
+  font-size: 90px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   .hero-grid {
     -ms-grid-columns: 1fr;
@@ -2834,6 +2849,10 @@
     width: auto;
   }
 
+  .team-card-image-r.j {
+    background-image: url('../images/Avatar-Jorge.png');
+  }
+
   .footer-nfts {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2943,6 +2962,12 @@
 
   .team-card-image-jorge {
     width: auto;
+  }
+
+  .tb-revealed {
+    left: 134px;
+    top: 508px;
+    line-height: 90px;
   }
 }
 
@@ -3222,6 +3247,10 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+
+  .tb-revealed {
+    left: 40px;
   }
 }
 
@@ -3979,6 +4008,13 @@
 
   .mint-button-wrapper {
     padding-right: 0px;
+  }
+
+  .tb-revealed {
+    left: 18px;
+    top: 623px;
+    font-size: 50px;
+    line-height: 40px;
   }
 }
 
