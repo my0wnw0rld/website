@@ -652,6 +652,10 @@
   align-items: center;
 }
 
+.container.image {
+  max-width: 1300px;
+}
+
 .team-menu-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -879,7 +883,7 @@
   width: 300px;
   height: 380px;
   border-radius: 2px;
-  background-image: url('../images/Avatar-Luis.png');
+  background-image: url('../images/Foto-Web-Luis.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1020,7 +1024,7 @@
 }
 
 .imx {
-  display: none;
+  display: block;
 }
 
 .text-block-4 {
@@ -1143,7 +1147,7 @@
   width: 300px;
   height: 380px;
   border-radius: 2px;
-  background-image: url('../images/Avatar-Aoshi.png');
+  background-image: url('../images/Foto-Web-Johnny.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1289,10 +1293,7 @@
 }
 
 .copyright-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   margin-top: 40px;
   -webkit-box-pack: center;
@@ -1653,7 +1654,7 @@
   width: 300px;
   height: 380px;
   border-radius: 2px;
-  background-image: url('../images/Avatar-Rangel.png');
+  background-image: url('../images/Foto-Web-Rangel.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1938,7 +1939,10 @@
 }
 
 .footer-socials.hide {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .lore {
@@ -2037,8 +2041,6 @@
 
 .margin-80px {
   margin-top: 80px;
-  -webkit-filter: blur(9px);
-  filter: blur(9px);
 }
 
 .project-max-w {
@@ -2257,6 +2259,10 @@
   background-position: 0px 0px;
   background-size: auto;
   opacity: 0.04;
+}
+
+.roadmap-new {
+  display: none;
 }
 
 .process-wrapper {
@@ -2641,7 +2647,7 @@
   width: 300px;
   height: 380px;
   border-radius: 2px;
-  background-image: url('../images/Avatar-Jorge.png');
+  background-image: url('../images/Foto-Web-Jorge.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2676,12 +2682,339 @@
   left: 242px;
   top: 566px;
   z-index: 50;
+  display: none;
   -webkit-transform: rotate(-31deg);
   -ms-transform: rotate(-31deg);
   transform: rotate(-31deg);
   font-size: 90px;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.roadmap-table {
+  margin-top: 80px;
+}
+
+.mowpass-button {
+  position: absolute;
+  left: 394px;
+  top: 688px;
+  z-index: 10;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.mowpass {
+  position: absolute;
+  left: 386px;
+  top: 673px;
+}
+
+.mowpass-desc {
+  position: absolute;
+  left: 580px;
+  top: 304px;
+  display: none;
+  -webkit-transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  transform: rotate(11deg);
+}
+
+.heroes-button {
+  position: absolute;
+  left: 401px;
+  top: 729px;
+  z-index: 10;
+  width: 230px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.heroes-desc {
+  position: absolute;
+  left: 623px;
+  top: 518px;
+  display: none;
+  -webkit-transform: rotate(-17deg);
+  -ms-transform: rotate(-17deg);
+  transform: rotate(-17deg);
+}
+
+.giveaway-button {
+  position: absolute;
+  left: 412px;
+  top: 780px;
+  z-index: 10;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.giveaway-desc {
+  position: absolute;
+  left: 623px;
+  top: 575px;
+  display: none;
+  -webkit-transform: rotate(-17deg);
+  -ms-transform: rotate(-17deg);
+  transform: rotate(-17deg);
+}
+
+.mowbank-button {
+  position: absolute;
+  left: 419px;
+  top: 824px;
+  z-index: 10;
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.mowbanc-desc {
+  position: absolute;
+  left: 689px;
+  top: 625px;
+  display: none;
+  -webkit-transform: rotate(14deg);
+  -ms-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+.limited-button {
+  position: absolute;
+  left: 429px;
+  top: 876px;
+  z-index: 10;
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.limited-desc {
+  position: absolute;
+  left: 645px;
+  top: 686px;
+  display: none;
+  -webkit-transform: rotate(17deg);
+  -ms-transform: rotate(17deg);
+  transform: rotate(17deg);
+}
+
+.mowpad-button {
+  position: absolute;
+  left: 789px;
+  top: 509px;
+  z-index: 10;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+.mowpad-desc {
+  position: absolute;
+  left: 404px;
+  top: 394px;
+  display: none;
+  -webkit-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+
+._1prints-button {
+  position: absolute;
+  left: 802px;
+  top: 554px;
+  z-index: 10;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+  cursor: pointer;
+}
+
+._1prints-desc {
+  position: absolute;
+  left: 388px;
+  top: 394px;
+  display: none;
+  -webkit-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+
+.merch-button {
+  position: absolute;
+  left: 808px;
+  top: 594px;
+  z-index: 10;
+  width: 160px;
+  height: 40px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.merch-desc {
+  position: absolute;
+  left: 402px;
+  top: 514px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.villains-button {
+  position: absolute;
+  left: 821px;
+  top: 636px;
+  z-index: 10;
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.villains-desc {
+  position: absolute;
+  left: 417px;
+  top: 617px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.comic-button {
+  position: absolute;
+  left: 828px;
+  top: 665px;
+  z-index: 10;
+  width: 265px;
+  height: 40px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.comic-desc {
+  position: absolute;
+  left: 421px;
+  top: 611px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.meetups-button {
+  position: absolute;
+  left: 831px;
+  top: 721px;
+  z-index: 10;
+  width: 250px;
+  height: 60px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.meetups-desc {
+  position: absolute;
+  left: 421px;
+  top: 672px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.game-button {
+  position: absolute;
+  left: 851px;
+  top: 795px;
+  z-index: 10;
+  width: 160px;
+  height: 40px;
+  background-color: rgba(196, 57, 57, 0);
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.game-desc {
+  position: absolute;
+  left: 421px;
+  top: 672px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.hidden-button {
+  position: absolute;
+  left: 861px;
+  top: 305px;
+  z-index: 10;
+  width: 60px;
+  height: 70px;
+  background-color: transparent;
+  -webkit-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+  cursor: pointer;
+}
+
+.hidden-desc {
+  position: absolute;
+  left: 457px;
+  top: 309px;
+  display: none;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.roadmap-image-no-over._2 {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -2850,7 +3183,7 @@
   }
 
   .team-card-image-r.j {
-    background-image: url('../images/Avatar-Jorge.png');
+    background-image: url('../images/Foto-Web-Jorge.jpg');
   }
 
   .footer-nfts {
@@ -2906,7 +3239,7 @@
   }
 
   .tube {
-    left: -159px;
+    left: -211px;
     top: 3594px;
   }
 
@@ -2968,6 +3301,196 @@
     left: 134px;
     top: 508px;
     line-height: 90px;
+  }
+
+  .roadmap-image {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .roadmap-image.smallimage {
+    display: none;
+  }
+
+  .mowpass-button {
+    left: 206px;
+    top: 450px;
+    width: 70px;
+    height: 20px;
+  }
+
+  .mowpass-desc {
+    left: 134px;
+    top: 73px;
+    display: none;
+  }
+
+  .heroes-button {
+    left: 211px;
+    top: 471px;
+    width: 120px;
+    height: 20px;
+  }
+
+  .heroes-desc {
+    left: 138px;
+    top: 247px;
+    display: none;
+  }
+
+  .giveaway-button {
+    left: 214px;
+    top: 501px;
+    width: 79px;
+    height: 20px;
+  }
+
+  .giveaway-desc {
+    left: 163px;
+    top: 305px;
+    display: none;
+  }
+
+  .mowbank-button {
+    left: 219px;
+    top: 522px;
+    width: 160px;
+    height: 20px;
+  }
+
+  .mowbanc-desc {
+    left: 154px;
+    top: 253px;
+    display: none;
+  }
+
+  .limited-button {
+    left: 219px;
+    top: 553px;
+    width: 140px;
+    height: 20px;
+  }
+
+  .limited-desc {
+    left: 165px;
+    top: 268px;
+    display: none;
+  }
+
+  .mowpad-button {
+    left: 423px;
+    top: 353px;
+    width: 60px;
+    height: 20px;
+  }
+
+  .mowpad-desc {
+    left: 160px;
+    top: 246px;
+    display: none;
+  }
+
+  ._1prints-button {
+    left: 428px;
+    top: 376px;
+    width: 60px;
+    height: 20px;
+  }
+
+  ._1prints-desc {
+    left: 141px;
+    top: 276px;
+    display: none;
+  }
+
+  .merch-button {
+    left: 432px;
+    top: 397px;
+    width: 80px;
+    height: 20px;
+  }
+
+  .merch-desc {
+    left: 183px;
+    top: 337px;
+    display: none;
+  }
+
+  .villains-button {
+    left: 439px;
+    top: 422px;
+    width: 80px;
+    height: 20px;
+  }
+
+  .villains-desc {
+    left: 170px;
+    top: 356px;
+    display: none;
+  }
+
+  .comic-button {
+    left: 441px;
+    top: 437px;
+    width: 140px;
+    height: 20px;
+  }
+
+  .comic-desc {
+    left: 188px;
+    top: 304px;
+    display: none;
+  }
+
+  .meetups-button {
+    left: 445px;
+    top: 467px;
+    width: 130px;
+    height: 30px;
+  }
+
+  .meetups-desc {
+    left: 167px;
+    top: 319px;
+    display: none;
+  }
+
+  .game-button {
+    left: 456px;
+    top: 505px;
+    width: 80px;
+    height: 20px;
+  }
+
+  .game-desc {
+    left: 141px;
+    top: 258px;
+    display: none;
+  }
+
+  .hidden-button {
+    left: 456px;
+    top: 243px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .hidden-desc {
+    left: 133px;
+    display: none;
+  }
+
+  .roadmap-image-no-over {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .roadmap-image-no-over._2 {
+    display: inline-block;
+    margin-right: 0%;
+    margin-left: 0%;
   }
 }
 
@@ -3251,6 +3774,175 @@
 
   .tb-revealed {
     left: 40px;
+  }
+
+  .mowpass-button {
+    left: 150px;
+    top: 376px;
+    height: 15px;
+  }
+
+  .mowpass-desc {
+    left: 165px;
+    top: 170px;
+    display: none;
+    max-width: 60%;
+  }
+
+  .heroes-button {
+    left: 151px;
+    top: 394px;
+    height: 15px;
+  }
+
+  .heroes-desc {
+    left: 211px;
+    top: 244px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .giveaway-button {
+    left: 157px;
+    top: 415px;
+    height: 15px;
+  }
+
+  .giveaway-desc {
+    top: 242px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .mowbank-button {
+    left: 164px;
+    top: 430px;
+    width: 120px;
+    height: 15px;
+  }
+
+  .mowbanc-desc {
+    top: 229px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .limited-button {
+    left: 169px;
+    top: 453px;
+    width: 120px;
+    height: 15px;
+  }
+
+  .limited-desc {
+    top: 238px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .mowpad-button {
+    left: 314px;
+    top: 307px;
+    width: 50px;
+    height: 15px;
+  }
+
+  .mowpad-desc {
+    left: 81px;
+    display: none;
+    max-width: 50%;
+  }
+
+  ._1prints-button {
+    left: 317px;
+    top: 324px;
+    width: 50px;
+    height: 15px;
+  }
+
+  ._1prints-desc {
+    left: 86px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .merch-button {
+    left: 320px;
+    top: 339px;
+    width: 70px;
+    height: 15px;
+  }
+
+  .merch-desc {
+    left: 71px;
+    top: 318px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .villains-button {
+    left: 320px;
+    top: 357px;
+    width: 70px;
+    height: 15px;
+  }
+
+  .villains-desc {
+    left: 70px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .comic-button {
+    left: 325px;
+    top: 370px;
+    width: 110px;
+    height: 15px;
+  }
+
+  .comic-desc {
+    left: 121px;
+    top: 257px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .meetups-button {
+    left: 324px;
+    top: 391px;
+    width: 110px;
+    height: 20px;
+  }
+
+  .meetups-desc {
+    top: 286px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .game-button {
+    left: 334px;
+    top: 421px;
+    height: 15px;
+  }
+
+  .game-desc {
+    top: 234px;
+    display: none;
+    max-width: 50%;
+  }
+
+  .hidden-button {
+    left: 336px;
+    top: 225px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .hidden-desc {
+    top: 262px;
+    display: none;
+    max-width: 50%;
   }
 }
 
@@ -4016,6 +4708,174 @@
     font-size: 50px;
     line-height: 40px;
   }
+
+  .mowpass-button {
+    left: 76px;
+    top: 261px;
+    width: 50px;
+    height: 10px;
+  }
+
+  .mowpass-desc {
+    left: 106px;
+    top: 161px;
+    display: none;
+    max-width: 55%;
+  }
+
+  .heroes-button {
+    left: 87px;
+    top: 270px;
+    width: 60px;
+    height: 10px;
+  }
+
+  .heroes-desc {
+    left: 127px;
+    top: 200px;
+    display: none;
+  }
+
+  .giveaway-button {
+    left: 85px;
+    top: 282px;
+    width: 50px;
+    height: 10px;
+  }
+
+  .giveaway-desc {
+    left: 90px;
+    top: 181px;
+    display: none;
+  }
+
+  .mowbank-button {
+    left: 91px;
+    top: 291px;
+    width: 70px;
+    height: 10px;
+  }
+
+  .mowbanc-desc {
+    left: 138px;
+    top: 220px;
+    display: none;
+  }
+
+  .limited-button {
+    left: 89px;
+    top: 303px;
+    width: 70px;
+    height: 10px;
+  }
+
+  .limited-desc {
+    left: 137px;
+    top: 233px;
+    display: none;
+  }
+
+  .mowpad-button {
+    left: 174px;
+    top: 220px;
+    width: 30px;
+    height: 10px;
+  }
+
+  .mowpad-desc {
+    left: 47px;
+    top: 230px;
+    display: none;
+  }
+
+  ._1prints-button {
+    left: 176px;
+    top: 231px;
+    width: 30px;
+    height: 9px;
+  }
+
+  ._1prints-desc {
+    left: 49px;
+    top: 213px;
+    display: none;
+  }
+
+  .merch-button {
+    left: 180px;
+    top: 240px;
+    width: 35px;
+    height: 10px;
+  }
+
+  .merch-desc {
+    top: 255px;
+    display: none;
+  }
+
+  .villains-button {
+    left: 181px;
+    top: 250px;
+    width: 40px;
+    height: 9px;
+  }
+
+  .villains-desc {
+    top: 207px;
+    display: none;
+  }
+
+  .comic-button {
+    left: 182px;
+    top: 257px;
+    width: 60px;
+    height: 8px;
+  }
+
+  .comic-desc {
+    left: 78px;
+    top: 186px;
+    display: none;
+  }
+
+  .meetups-button {
+    left: 185px;
+    top: 269px;
+    width: 60px;
+    height: 12px;
+  }
+
+  .meetups-desc {
+    left: 94px;
+    top: 207px;
+    display: none;
+  }
+
+  .game-button {
+    left: 185px;
+    top: 287px;
+    width: 40px;
+    height: 9px;
+  }
+
+  .game-desc {
+    left: 94px;
+    top: 176px;
+    display: none;
+  }
+
+  .hidden-button {
+    left: 190px;
+    top: 178px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .hidden-desc {
+    left: 78px;
+    top: 195px;
+    display: none;
+  }
 }
 
 #w-node-ca1b7310-e2de-f44e-2136-02a459228103-a2990fce {
@@ -4091,28 +4951,28 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-ab2c7362-f0bd-02b5-3803-8eb522153df7-a2990fce {
+  #w-node-_57e9057b-95cb-1743-8656-fefe30506c75-a2990fce {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
 
-  #w-node-_6a958d84-0a84-3622-e39b-7aa626330337-a2990fce {
+  #w-node-_57e9057b-95cb-1743-8656-fefe30506c82-a2990fce {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
 
-  #w-node-e7bfa178-b990-b6a1-97d9-40570d3e511b-a2990fce {
+  #w-node-_57e9057b-95cb-1743-8656-fefe30506c93-a2990fce {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
 
-  #w-node-e1c09125-853e-f23d-410f-3823d9ec3c8f-a2990fce {
+  #w-node-_57e9057b-95cb-1743-8656-fefe30506ca4-a2990fce {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
